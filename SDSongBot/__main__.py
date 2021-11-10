@@ -1,4 +1,4 @@
-#SDBOTs <https://t.me/SDBOTs_Inifinity>
+#Vnd <https://t.me/vndbotsupport>
 
 from pyrogram.types.bots_and_keyboards import reply_keyboard_markup
 from SDSongBot.plugins import *
@@ -8,12 +8,12 @@ from SDSongBot import SDbot as app
 from SDSongBot import LOGGER
 
 pm_start_text = """
-👋 Hey [{}](tg://user?id={}), **I'm Song Downloader Bot**
+👋 Hey [{}](tg://user?id={}), **I'm Vnd Song Bot**
 **Now send me the song name you want to download**
      
 Syntax : ```/dsong Faded```
       
-Powerd By @SDBotsz 🔥
+Powerd By @Venuja_Sadew 🔥
 """
 
 @app.on_message(filters.command("start"))
@@ -26,10 +26,10 @@ async def start(client, message):
             [
                 [
                      InlineKeyboardButton(
-                        text="Channel 🙋‍♀️", url="https://t.me/SDBOTs_Inifinity"
+                        text="Channel 🙋‍♀️", url="https://t.me/vndbotsupport"
                     ),
                     InlineKeyboardButton(
-                        text="Dev 🔥", url="https://t.me/Itz_Sadew"
+                        text="Dev 🔥", url="https://t.me/Venuja_Sadew"
                     )
                 ]
             ]
@@ -47,5 +47,5 @@ LOGGER.info("""
 ╚█████╗░██║░░██║██████╦╝██║░░██║░░░██║░░░╚█████╗░
 ░╚═══██╗██║░░██║██╔══██╗██║░░██║░░░██║░░░░╚═══██╗
 ██████╔╝██████╔╝██████╦╝╚█████╔╝░░░██║░░░██████╔╝
-╚═════╝░╚═════╝░╚═════╝░░╚════╝░░░░╚═╝░░░╚═════╝░ SDSongBot is online.""")
+╚═════╝░╚═════╝░╚═════╝░░╚════╝░░░░╚═╝░░░╚═════╝░ VndSongBot is online.""")
 idle()
