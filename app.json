@@ -1,16 +1,16 @@
 {
-    "name": "SD Song Bot",
+    "name": "Vnd Song Bot",
     "description": "A bot that can download songs.",
     "logo": "https://telegra.ph/file/b8e564454da50ddc80b59.jpg",
     "keywords": [
-        "SDSongBot",
+        "VndSongBot",
         "Song Downloader",
         "Telegram Bot",
-        "SDBots"
+        "VndBots"
     ],
-    "website": "https://t.me/SDBOTs_inifinity",
-    "repository": "https://github.com/Sadew451/SDSongBot",
-    "success_url": "https://t.me/SDBOTs_inifinity",
+    "website": "https://t.me/vndbotsupport",
+    "repository": "https://github.com/VenujaBots/SDSongBot",
+    "success_url": "https://t.me/vndbotsupport",
     "env": {
         "BOT_TOKEN": {
             "description": "Your Telegram Bot Token from @BotFather",
